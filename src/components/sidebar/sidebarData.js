@@ -6,6 +6,36 @@ export const sidebarData = [
   {
     name: "STORES & OFFICES",
     path: "/stores",
+    dropdown: [
+      {
+        name: "Stores",
+        path: "/stores",
+      },
+      {
+        name: "Store cashback",
+        path: "/store-cashback",
+      },
+      {
+        name: "Store Category",
+        path: "/store-category",
+      },
+      {
+        name: "Coupon & Offers",
+        path: "/coupon-and-offers",
+      },
+      {
+        name: "Offer Categories",
+        path: "/offer-categories",
+      },
+      {
+        name: "Daily deals",
+        path: "/daily_deals",
+      },
+      {
+        name: "Deals category",
+        path: "/deals-category",
+      },
+    ],
   },
   {
     name: "INSTABACK",
