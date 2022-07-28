@@ -8,9 +8,9 @@
 
 
 
-/* .search {
-    flex: 1;
-} */
+.search {
+    margin-left: 10px;
+}
 
 .search-container {
     background-color: white;
@@ -24,4 +24,9 @@
     background: none;
     border: none;
     outline-width: 0px;
+}
+
+
+.actions {
+    display: flex;
 }

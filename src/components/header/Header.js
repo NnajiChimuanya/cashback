@@ -1,6 +1,6 @@
 import "./header.css";
 import React from "react";
-import { Search } from "@mui/icons-material";
+import { Search, NotificationAdd } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
 
 const Header = () => {
@@ -14,7 +14,10 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="actions"></div>
+      <div className="actions">
+        <Avatar />
+        <NotificationAdd />
+      </div>
     </div>
   );
 };
