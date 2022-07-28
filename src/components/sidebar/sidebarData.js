@@ -43,11 +43,83 @@ export const sidebarData = [
   },
   {
     name: "CMS",
-    path: "/cms",
+    path: "/menu-builder",
+    dropdown: [
+      {
+        name: "Menu Builder",
+        path: "/menu-builder",
+      },
+      {
+        name: "Pages",
+        path: "/pages",
+      },
+      {
+        name: "Content Block",
+        path: "/content-block",
+      },
+      {
+        name: "User Dashboard Pages",
+        path: "/user-dashboard-pages",
+      },
+      {
+        name: "Footer",
+        path: "/footer",
+      },
+      {
+        name: "Page Widget",
+        path: "/page-widget",
+      },
+      {
+        name: "FAQ",
+        path: "/faq",
+      },
+      {
+        name: "FAQ categories",
+        path: "/faq-categories",
+      },
+    ],
   },
   {
     name: "AFFILIATE NETWORKS",
-    path: "/affiliate",
+    path: "/affiliate-network",
+    dropdown: [
+      {
+        name: "Affiliate networks",
+        path: "/affiliate-network",
+      },
+      {
+        name: "Campaign master",
+        path: "/campaign-master",
+      },
+      {
+        name: "Campaign Rates",
+        path: "/campaign-rates",
+      },
+      {
+        name: "Postback Log",
+        path: "/postback-log",
+      },
+      {
+        name: "Network Run",
+        path: "/network-log",
+      },
+      {
+        name: "Network Coupons",
+        path: "/network-coupons",
+      },
+      {
+        name: "Campaign categories",
+        path: "/campaign-categories",
+      },
+      {
+        name: "Coupon categories",
+        path: "/coupon-categories",
+      },
+      {
+        name: "Network API log",
+        path: "/network-api-log",
+      },
+    ],
   },
   {
     name: "SALES AND CAHBACK",
