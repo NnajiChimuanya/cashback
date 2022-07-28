@@ -1,10 +1,27 @@
 .header {
-    height: 100px;
+    height: 80px;
     background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo > .image {
-    height: 100px;
-    width: 100px;
-    object-fit: contain;
+
+
+/* .search {
+    flex: 1;
+} */
+
+.search-container {
+    background-color: white;
+   display: flex;
+   align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.search-container > input {
+    background: none;
+    border: none;
+    outline-width: 0px;
 }

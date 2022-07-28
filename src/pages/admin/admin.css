@@ -1,0 +1,8 @@
+.admin {
+    display: flex;
+}
+
+.body {
+    flex: 0.85;
+}
+
