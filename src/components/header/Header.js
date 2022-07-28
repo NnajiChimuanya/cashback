@@ -1,13 +1,15 @@
 import "./header.css";
 import React from "react";
 import { Search, NotificationAdd, BlurOn } from "@mui/icons-material";
-import { Avatar } from "@mui/material";
+import { Avatar, IconButton } from "@mui/material";
 
 const Header = () => {
   return (
     <div className="header">
       <div>
-        <BlurOn className="blur-on" />
+        <IconButton>
+          <BlurOn className="blur-on" />
+        </IconButton>
       </div>
 
       <div className="actions">
