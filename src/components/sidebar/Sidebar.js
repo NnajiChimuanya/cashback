@@ -10,7 +10,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="sidebar" style={{ width: show ? 300 : 100 }}>
+    <div className="sidebar" style={{ width: show ? 250 : 100 }}>
       <div className="logo">
         <img
           className="image"
@@ -20,7 +20,9 @@ const Sidebar = () => {
         />
       </div>
 
-      <SidebarMenu data={sidebarData} />
+      {sidebarData.map((item, id) => {
+        return <SidebarMenu data={item} key={id} />;
+      })}
     </div>
   );
 };

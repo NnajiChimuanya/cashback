@@ -2,6 +2,12 @@ export const sidebarData = [
   {
     name: "DASHBOARD",
     path: "/",
+    dropdown: [
+      {
+        name: "Dashboard",
+        path: "/",
+      },
+    ],
   },
   {
     name: "STORES & OFFICES",
@@ -132,7 +138,7 @@ export const sidebarData = [
     ],
   },
   {
-    name: "SALES AND CAHBACK",
+    name: "SALES AND CASHBACK",
     path: "/manual-sales-import",
     dropdown: [
       {

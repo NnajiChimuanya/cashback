@@ -1,0 +1,24 @@
+.menu-item {
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: space-between;
+}
+.menu-item-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-down {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .menu-item {
+    font-size: 10px;
+  }
+}
+
+.close {
+  display: none;
+}
