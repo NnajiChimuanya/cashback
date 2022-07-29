@@ -1,7 +1,25 @@
+import {
+  KeyboardArrowDown,
+  Dashboard,
+  ShoppingCart,
+  FlightTakeoff,
+  Newspaper,
+  Anchor,
+  CurrencyExchange,
+  PeopleAlt,
+  Book,
+  Settings,
+  Power,
+  AdminPanelSettings,
+  ControlCamera,
+  Icecream,
+} from "@mui/icons-material";
+
 export const sidebarData = [
   {
     name: "DASHBOARD",
     path: "/",
+    Icon: Dashboard,
     dropdown: [
       {
         name: "Dashboard",
@@ -12,6 +30,7 @@ export const sidebarData = [
   {
     name: "STORES & OFFICES",
     path: "/stores",
+    Icon: ShoppingCart,
     dropdown: [
       {
         name: "Stores",
@@ -46,6 +65,7 @@ export const sidebarData = [
   {
     name: "INSTABACK PROMO",
     path: "/instaback-offers",
+    Icon: FlightTakeoff,
     dropdown: [
       {
         name: "Instaback offers",
@@ -60,6 +80,7 @@ export const sidebarData = [
   {
     name: "CMS",
     path: "/menu-builder",
+    Icon: Newspaper,
     dropdown: [
       {
         name: "Menu Builder",
@@ -98,6 +119,7 @@ export const sidebarData = [
   {
     name: "AFFILIATE NETWORKS",
     path: "/affiliate-network",
+    Icon: Anchor,
     dropdown: [
       {
         name: "Affiliate networks",
@@ -140,6 +162,7 @@ export const sidebarData = [
   {
     name: "SALES AND CASHBACK",
     path: "/manual-sales-import",
+    Icon: CurrencyExchange,
     dropdown: [
       {
         name: "Manual Sales Import",
@@ -182,6 +205,7 @@ export const sidebarData = [
   {
     name: "USERS",
     path: "/users",
+    Icon: PeopleAlt,
     dropdown: [
       {
         name: "Users",
@@ -216,6 +240,7 @@ export const sidebarData = [
   {
     name: "REPORTS AND LOGS",
     path: "/sms-logs",
+    Icon: Book,
     dropdown: [
       {
         name: "Sms logs",
@@ -246,6 +271,7 @@ export const sidebarData = [
   {
     name: "SETTINGS",
     path: "/settings",
+    Icon: Settings,
     dropdown: [
       {
         name: "Settings",
@@ -284,6 +310,7 @@ export const sidebarData = [
   {
     name: "DEVELOPER SETUP",
     path: "/language master",
+    Icon: Power,
     dropdown: [
       {
         name: "Language master",
@@ -306,9 +333,11 @@ export const sidebarData = [
   {
     name: "ADMIN PANEL",
     path: "/admin_panel",
+    Icon: AdminPanelSettings,
   },
   {
     name: "SUPERADMIN CONTROL",
     path: "/superadmin",
+    Icon: ControlCamera,
   },
 ];

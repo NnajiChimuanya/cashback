@@ -24,7 +24,10 @@ const Header = () => {
           <NotificationAdd />
         </div>
         <div>
-          <Avatar className="avatar" />
+          <Avatar
+            src="https://image.shutterstock.com/image-photo/portrait-mature-businessman-wearing-glasses-260nw-738242395.jpg"
+            className="avatar"
+          />
         </div>
       </div>
     </div>

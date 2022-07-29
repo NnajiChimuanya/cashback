@@ -2,6 +2,22 @@ import "./sidebar.css";
 import React, { useState } from "react";
 import { sidebarData } from "./sidebarData";
 import SidebarMenu from "./SidebarMenu";
+import {
+  KeyboardArrowDown,
+  Dashboard,
+  ShoppingCart,
+  FlightTakeoff,
+  Newspaper,
+  Anchor,
+  CurrencyExchange,
+  PeopleAlt,
+  Book,
+  Settings,
+  Power,
+  AdminPanelSettings,
+  ControlCamera,
+  Icecream,
+} from "@mui/icons-material";
 
 const Sidebar = () => {
   const [show, setShow] = useState(true);
@@ -21,7 +37,10 @@ const Sidebar = () => {
       </div>
 
       {sidebarData.map((item, id) => {
-        return <SidebarMenu data={item} key={id} />;
+        const { name, Icon, dropdown } = item;
+        return (
+          <SidebarMenu name={name} Icon={Icon} dropdown={dropdown} key={id} />
+        );
       })}
     </div>
   );
