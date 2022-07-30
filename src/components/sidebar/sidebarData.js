@@ -14,6 +14,7 @@ import {
   ControlCamera,
   Icecream,
 } from "@mui/icons-material";
+import DashboardPage from "../../pages/dashboard/DashboardPage";
 
 export const sidebarData = [
   {
@@ -24,6 +25,7 @@ export const sidebarData = [
       {
         name: "Dashboard",
         path: "/",
+        pg: DashboardPage,
       },
     ],
   },

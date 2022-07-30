@@ -4,6 +4,7 @@ import Header from "../../components/header/Header";
 import Sidebar from "../../components/sidebar/Sidebar";
 import { Route, Routes } from "react-router-dom";
 import { sidebarData } from "../../components/sidebar/sidebarData";
+import DashboardPage from "../dashboard/DashboardPage";
 
 const Admin = () => {
   return (
@@ -15,9 +16,7 @@ const Admin = () => {
           <Routes>
             {sidebarData.map((item, id) => {
               return item.dropdown?.map((item, id) => {
-                return (
-                  <Route path={item.path} element={<h2>{item.name}</h2>} />
-                );
+                return <Route path={item.path} element={<item.pg />} />;
               });
             })}
           </Routes>
