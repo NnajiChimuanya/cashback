@@ -84,11 +84,20 @@
 .quick-links > .quick-links-data {
   background-color: white;
   height: 70px;
-  width: calc(10vw);
+  width: calc(15vw);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   font-size: 12px;
   padding: 5px;
   display: grid;
+}
+
+.quick-links-data > .title {
+  font-weight: 400;
+}
+
+.quick-links-data > .amount {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .dashboard::-webkit-scrollbar {
@@ -100,6 +109,7 @@
     display: grid;
     row-gap: 10px;
   }
+
   .data-row-2 {
     display: grid;
     row-gap: 10px;
@@ -111,5 +121,9 @@
 
   .quick-links > .quick-links-data {
     width: calc(15vw);
+  }
+  .quick-links-data > .title {
+    font-size: 10px;
+    font-weight: 300;
   }
 }

@@ -42,7 +42,7 @@ const DashboardPage = () => {
         <div className="line-chart">
           <h4 className="line-chart-title"> Clicks/Transactions</h4>
           <LineChart
-            width={500}
+            width={520}
             height={250}
             data={lineChartData}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
@@ -59,7 +59,7 @@ const DashboardPage = () => {
         <div className="line-chart">
           <h4 className="line-chart-title"> Commission/Cashback</h4>
           <LineChart
-            width={500}
+            width={520}
             height={250}
             data={lineChartData}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
@@ -77,7 +77,7 @@ const DashboardPage = () => {
       <div className="data-row-2">
         <div className="bar-chart">
           <h4 className="bar-chart-title"> Total Clicks</h4>
-          <BarChart width={500} height={250} data={lineChartData}>
+          <BarChart width={520} height={250} data={lineChartData}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
             <YAxis />
@@ -90,7 +90,7 @@ const DashboardPage = () => {
         <div className="line-chart">
           <h4 className="line-chart-title"> Total Users</h4>
           <LineChart
-            width={500}
+            width={520}
             height={250}
             data={lineChartData}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
@@ -108,24 +108,24 @@ const DashboardPage = () => {
         <h4> Quick Links</h4>
         <div className="quick-links">
           <div className="quick-links-data">
-            <div className="title"> Total Bonus</div>
-            <div className="amount">Rp870</div>
+            <div className="title">Missing Cashback Tickets</div>
+            <div className="amount">31</div>
           </div>
           <div className="quick-links-data">
-            <div className="title"> Total Cashback</div>
-            <div className="amount">Rp870</div>
+            <div className="title"> Cashback Payment Request</div>
+            <div className="amount">11</div>
           </div>
           <div className="quick-links-data">
-            <div className="title"> Net profit</div>
-            <div className="amount">Rp870</div>
+            <div className="title"> Published stores</div>
+            <div className="amount">196</div>
           </div>
           <div className="quick-links-data">
-            <div className="title"> Net profit</div>
-            <div className="amount">Rp870</div>
+            <div className="title"> Active Offers</div>
+            <div className="amount">2264</div>
           </div>
           <div className="quick-links-data">
-            <div className="title"> Net profit</div>
-            <div className="amount">Rp870</div>
+            <div className="title">Active Deals</div>
+            <div className="amount">50</div>
           </div>
         </div>
       </div>
