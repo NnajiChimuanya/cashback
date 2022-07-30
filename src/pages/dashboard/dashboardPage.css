@@ -12,6 +12,30 @@
   padding: 10px;
 }
 
+.overview {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.overview-data {
+  background-color: white;
+  height: 70px;
+  width: calc(18vw);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  padding: 5px;
+  display: grid;
+}
+
+.overview-data > .title {
+  font-weight: 800;
+}
+.overview-data > .amount {
+  color: rgb(139, 139, 136);
+  font-weight: 500;
+}
+
 .dashboard::-webkit-scrollbar {
   display: none;
 }
