@@ -1,8 +1,8 @@
 .dashboard {
-  
   overflow: scroll;
   height: calc(100vh - 60px);
   background-color: #e1e2d8;
+  width: 100%;
 }
 
 .dashboard-header {
@@ -41,6 +41,7 @@
   display: flex;
   justify-content: space-between;
   margin: 10px;
+  margin-top: 20px;
 }
 
 .line-chart {
@@ -52,6 +53,44 @@
   padding: 20px;
 }
 
+.data-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.bar-chart {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bar-chart > .bar-chart-title {
+  padding: 20px;
+}
+
+.data-row-3 {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.quick-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.quick-links > .quick-links-data {
+  background-color: white;
+  height: 70px;
+  width: calc(10vw);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  padding: 5px;
+  display: grid;
+}
+
 .dashboard::-webkit-scrollbar {
   display: none;
 }
@@ -61,8 +100,16 @@
     display: grid;
     row-gap: 10px;
   }
+  .data-row-2 {
+    display: grid;
+    row-gap: 10px;
+  }
 
   .dashboard {
     overflow: scroll;
+  }
+
+  .quick-links > .quick-links-data {
+    width: calc(15vw);
   }
 }

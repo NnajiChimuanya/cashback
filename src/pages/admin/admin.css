@@ -1,12 +1,13 @@
 .admin {
-  height: 100vh;
   display: flex;
-  
+  height: 100vh;
+  overflow: scroll;
+}
+
+.admin::-webkit-scrollbar {
+  display: none;
 }
 
 .body {
   flex: 1;
-  
 }
-
-
