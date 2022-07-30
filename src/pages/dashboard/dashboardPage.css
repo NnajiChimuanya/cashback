@@ -36,6 +36,28 @@
   font-weight: 500;
 }
 
+.data-row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.line-chart {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.line-chart > .line-chart-title {
+  padding: 20px;
+}
+
 .dashboard::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .data-row-1 {
+    display: grid;
+    row-gap: 10px;
+  }
 }
