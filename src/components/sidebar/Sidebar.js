@@ -39,7 +39,13 @@ const Sidebar = () => {
       {sidebarData.map((item, id) => {
         const { name, Icon, dropdown } = item;
         return (
-          <SidebarMenu name={name} Icon={Icon} dropdown={dropdown} key={id} />
+          <SidebarMenu
+            show={show}
+            name={name}
+            Icon={Icon}
+            dropdown={dropdown}
+            key={id}
+          />
         );
       })}
     </div>

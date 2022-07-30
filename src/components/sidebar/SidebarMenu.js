@@ -19,15 +19,17 @@ import { IconButton } from "@mui/material";
 import { display, style } from "@mui/system";
 import { Link } from "react-router-dom";
 
-const SidebarMenu = ({ name, Icon, dropdown }) => {
+const SidebarMenu = ({ name, Icon, dropdown, show }) => {
   const [showDropDown, setShowDropDown] = useState(true);
   const handleShowDropDown = () => setShowDropDown(!showDropDown);
 
   return (
     <div className="menu-item">
       <div className="menu-item-main">
-        <Icon />
-        {name}
+        <div className="menu-item-main-name">
+          <Icon className="icon" />
+          <p style={{ display: show ? "block" : "none" }}>{name}</p>
+        </div>
         {dropdown && <KeyboardArrowDown onClick={handleShowDropDown} />}
       </div>
       <div
@@ -36,11 +38,11 @@ const SidebarMenu = ({ name, Icon, dropdown }) => {
       >
         {dropdown?.map((item, id) => {
           return (
-            <li>
+            <div className="drop-down-link">
               <Link to={item.path} key={id}>
-                {item.name}
+                <p>{item.name}</p>
               </Link>
-            </li>
+            </div>
           );
         })}
       </div>
