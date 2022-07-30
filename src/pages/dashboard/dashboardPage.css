@@ -1,4 +1,5 @@
 .dashboard {
+  
   overflow: scroll;
   height: calc(100vh - 60px);
   background-color: #e1e2d8;
@@ -59,5 +60,9 @@
   .data-row-1 {
     display: grid;
     row-gap: 10px;
+  }
+
+  .dashboard {
+    overflow: scroll;
   }
 }

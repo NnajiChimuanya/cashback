@@ -1,7 +1,12 @@
 .admin {
+  height: 100vh;
   display: flex;
+  
 }
 
 .body {
   flex: 1;
+  
 }
+
+

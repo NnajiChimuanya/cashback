@@ -4,6 +4,8 @@
   min-width: 80px;
   overflow: scroll;
   background-color: #e1e2d8;
+  
+ 
 }
 
 .sidebar::-webkit-scrollbar {
