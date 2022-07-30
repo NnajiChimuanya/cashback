@@ -42,6 +42,14 @@ a {
   .menu-item {
     font-size: 10px;
   }
+
+  .menu-item-main-name div {
+    display: none;
+  }
+
+  .drop-down {
+    margin-left: 10px;
+  }
 }
 
 .close {

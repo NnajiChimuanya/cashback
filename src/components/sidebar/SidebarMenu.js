@@ -28,13 +28,20 @@ const SidebarMenu = ({ name, Icon, dropdown, show }) => {
       <div className="menu-item-main">
         <div className="menu-item-main-name">
           <Icon className="icon" />
-          <p style={{ display: show ? "block" : "none" }}>{name}</p>
+          <div>
+            <p className="title" style={{ display: show ? "block" : "none" }}>
+              {name}
+            </p>
+          </div>
         </div>
         {dropdown && <KeyboardArrowDown onClick={handleShowDropDown} />}
       </div>
       <div
         className="drop-down"
-        style={{ display: showDropDown ? "none" : "block" }}
+        style={{
+          display: showDropDown ? "none" : "block",
+          marginLeft: !show ? "10px" : "50px",
+        }}
       >
         {dropdown?.map((item, id) => {
           return (
