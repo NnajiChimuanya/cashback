@@ -1,0 +1,18 @@
+.stores {
+  overflow: scroll;
+  height: calc(100vh - 60px);
+  background-color: #e1e2d8;
+  width: 100%;
+}
+
+.stores::-webkit-scrollbar {
+  display: none;
+}
+
+.stores-header {
+  margin: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  height: 30px;
+  padding: 10px;
+}

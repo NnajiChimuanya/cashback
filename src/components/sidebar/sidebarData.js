@@ -15,6 +15,7 @@ import {
   Icecream,
 } from "@mui/icons-material";
 import DashboardPage from "../../pages/dashboard/DashboardPage";
+import Stores from "../../pages/stores/Stores";
 
 export const sidebarData = [
   {
@@ -37,6 +38,7 @@ export const sidebarData = [
       {
         name: "Stores",
         path: "/stores",
+        pg: Stores,
       },
       {
         name: "Store cashback",
