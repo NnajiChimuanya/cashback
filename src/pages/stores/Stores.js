@@ -1,7 +1,7 @@
 import React from "react";
 import "./stores.css";
 import { Button } from "@material-ui/core";
-import { Add } from "@mui/icons-material";
+import { Add, Filter2 } from "@mui/icons-material";
 
 const Stores = () => {
   return (
@@ -31,13 +31,23 @@ const Stores = () => {
           </p>
         </div>
 
-        <div className="buttons">
-          <Button className="button">
-            {" "}
-            <Add /> create New
-          </Button>
-          <Button className="button"> Import CSV</Button>
-          <Button className="button">Bulk Edit</Button>
+        <div className="actions">
+          <div className="buttons">
+            <Button className=" button button-create-new">
+              <Add /> Create new
+            </Button>
+            <Button className="button button-import-csv"> Import CSV</Button>
+            <Button className="button button-bulk-edit">Bulk Edit</Button>
+          </div>
+
+          <div className="filter">
+            <Button>
+              {" "}
+              <Filter2 />
+              Filter{" "}
+            </Button>
+            <input placeholder="Type and hit enter" />
+          </div>
         </div>
       </div>
     </div>

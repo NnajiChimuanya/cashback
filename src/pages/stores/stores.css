@@ -34,7 +34,36 @@
   font-weight: 500;
 }
 
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
 .button {
   text-transform: inherit !important;
   font-size: 12px;
+  margin-right:5px !important;
+}
+
+.button-create-new  {
+  background-color: rgb(36, 36, 94) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.button-import-csv {
+  background-color: rgb(35, 172, 172) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.button-bulk-edit {
+  background-color: rgb(238, 106, 12) !important;
+  color: white !important;
+  font-weight: 600 !important;
+ 
 }
