@@ -1,7 +1,7 @@
 import React from "react";
 import "./stores.css";
 import { Button } from "@material-ui/core";
-import { Add, Filter2 } from "@mui/icons-material";
+import { Add, FilterAlt } from "@mui/icons-material";
 
 const Stores = () => {
   return (
@@ -43,7 +43,7 @@ const Stores = () => {
           <div className="filter">
             <Button>
               {" "}
-              <Filter2 />
+              <FilterAlt />
               Filter{" "}
             </Button>
             <input placeholder="Type and hit enter" />
