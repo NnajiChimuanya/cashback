@@ -40,7 +40,7 @@
 }
 
 .buttons {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,14 +70,34 @@
  
 }
 
+.filter {
+  display: flex;
+  align-items: center;
+}
 
+.filter > input {
+  margin: 0 10px;
+  padding: 6px;
+}
+
+.filter-button {
+  color: white !important;
+  text-transform: inherit !important;
+  background-color: rgb(36, 36, 94) !important;
+
+}
 
 .filter-alt {
-  background-color: white !important;
+
+}
+
+.table {
+  margin-top: 20px;
 }
 
 @media screen and (max-width : 650px) {
   .buttons {
    display: grid;
+   row-gap: 10px;
   }
 }
