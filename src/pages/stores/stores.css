@@ -30,17 +30,19 @@
 }
 
 .stores-main-info > p {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 500;
+  word-spacing: 2px;
 }
 
-.actions {
-  display: flex;
-  justify-content: space-between;
+.button-actions {
+  display: grid;
 }
 
 .buttons {
   margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .button {
@@ -66,4 +68,16 @@
   color: white !important;
   font-weight: 600 !important;
  
+}
+
+
+
+.filter-alt {
+  background-color: white !important;
+}
+
+@media screen and (max-width : 650px) {
+  .buttons {
+   display: grid;
+  }
 }
